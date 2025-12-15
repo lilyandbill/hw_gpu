@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Linux-MPI",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/usr/lib/x86_64-linux-gnu/openmpi/include",
+        "/usr/local/cuda/lib64",
+        "/usr/local/cuda/include"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/mpic++",   // 或 /usr/bin/mpicc
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}
